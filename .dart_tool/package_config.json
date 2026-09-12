@@ -3,13 +3,13 @@
   "packages": [
     {
       "name": "_fe_analyzer_shared",
-      "rootUri": "file:///C:/Users/PC/AppData/Local/Pub/Cache/hosted/pub.dev/_fe_analyzer_shared-107.0.0",
+      "rootUri": "file:///C:/Users/PC/AppData/Local/Pub/Cache/hosted/pub.dev/_fe_analyzer_shared-108.0.0",
       "packageUri": "lib/",
       "languageVersion": "3.11"
     },
     {
       "name": "analyzer",
-      "rootUri": "file:///C:/Users/PC/AppData/Local/Pub/Cache/hosted/pub.dev/analyzer-14.3.0",
+      "rootUri": "file:///C:/Users/PC/AppData/Local/Pub/Cache/hosted/pub.dev/analyzer-14.4.0",
       "packageUri": "lib/",
       "languageVersion": "3.11"
     },
@@ -298,7 +298,5 @@
   ],
   "generator": "pub",
   "generatorVersion": "3.13.2",
-  "flutterRoot": "file:///C:/flutter",
-  "flutterVersion": "3.47.2",
   "pubCache": "file:///C:/Users/PC/AppData/Local/Pub/Cache"
 }

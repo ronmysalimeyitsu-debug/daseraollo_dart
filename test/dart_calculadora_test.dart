@@ -1,9 +1,11 @@
-import 'package:dart_calculadora/dart_calculadora.dart';
+import 'package:pin_pon/dart_calculadora.dart';
+import 'package:test/test.dart';
 
-
-void main(List<String> arguments) {
- print("suma: ${sum(6, 7)}");
- print("resta: ${subtract(6, 7)}");
- print("multiplicación: ${multiply(6, 7)}");
- print("división: ${divide(6, 7)}");
+void main() {
+  test('calculadora básica', () {
+    expect(sum(6, 7), 13);
+    expect(subtract(6, 7), -1);
+    expect(multiply(6, 7), 42);
+    expect(divide(14, 7), 2);
+  });
 }

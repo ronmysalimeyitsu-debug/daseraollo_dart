@@ -1,28 +1,11 @@
 name: pin_pon
-description: A sample command-line application.
+description: Juego de pin pong desarrollado en Dart como práctica de programación.
 version: 1.0.0
-# repository: https://github.com/my_org/my_repo
+# repository: https://github.com/ronmysalimeyitsu-debug/daseraollo_dart.git
 
 environment:
   sdk: ^3.13.0
 
-# Add regular dependencies here.
-dependencies:
-  path: ^1.9.0
-
-dev_dependencies:
-  lints: ^6.0.0
-  test: ^1.25.6
-
-name: dart_calculadora
-description: A sample command-line application.
-version: 1.0.0
-# repository: https://github.com/my_org/my_repo
-
-environment:
-  sdk: ^3.13.2
-
-# Add regular dependencies here.
 dependencies:
   path: ^1.9.0
 
