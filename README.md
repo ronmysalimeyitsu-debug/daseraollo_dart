@@ -1,9 +1,43 @@
-# Juego de pinpong
+# Juego de Ping Pong
 
-## Prácticas Dart
+Proyecto desarrollado en Dart como práctica de programación para crear un juego de ping pong en consola.
 
-Este proyecto es un juego de pinpong desarrollado en Dart como práctica de programación.
+## Descripción
 
-Es una aplicación de línea de comandos con punto de entrada en `bin/`, código de librería en `lib/` y pruebas de ejemplo en `test/`.
+Este juego simula una partida de ping pong con:
+- dos modos de juego
+- inteligencia artificial para jugar contra la computadora
+- control de teclado
+- puntuación y renderizado en consola
+- estructura modular con clases y lógica separada
 
-Incluye la lógica del juego, manejo de entrada y pruebas unitarias para practicar conceptos básicos de Dart y desarrollo de videojuegos sencillos.
+## Estructura del proyecto
+
+- `bin/`: archivos de entrada principal del programa
+- `lib/`: lógica del juego y utilidades
+- `test/`: pruebas unitarias
+
+## Cómo ejecutar
+
+1. Abre la terminal en la carpeta del proyecto.
+2. Asegúrate de tener Dart instalado.
+3. Ejecuta:
+
+```bash
+dart run bin/pin_pon.dart
+```
+
+## Requisitos
+
+- Dart SDK 3.13 o superior
+
+## Tecnologías utilizadas
+
+- Dart
+- Programación orientada a objetos
+- Manejo de entrada por teclado
+- Pruebas unitarias con `test`
+
+## Autor
+
+Proyecto educativo realizado como práctica de programación en Dart.
