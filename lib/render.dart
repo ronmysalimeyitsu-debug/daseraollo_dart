@@ -1,5 +1,6 @@
 // renderer.dart
 import 'dart:io';
+
 import 'entities.dart';
 import 'game_config.dart';
 
@@ -11,8 +12,10 @@ class Renderer {
     buffer.write('\x1B[H');
 
     // Marcador
-    buffer.writeln('  Jugador 1: $p1  |  Jugador 2: $p2'.padRight(GameConfig.ancho));
-    buffer.writeln('+' + '-' * (GameConfig.ancho - 2) + '+');
+    buffer.writeln(
+      '  Jugador 1: $p1  |  Jugador 2: $p2'.padRight(GameConfig.ancho),
+    );
+    buffer.writeln('+${'-' * (GameConfig.ancho - 2)}+');
 
     for (int y = 0; y < GameConfig.alto; y++) {
       buffer.write('|'); // Borde izquierdo
@@ -32,7 +35,7 @@ class Renderer {
       buffer.writeln('|'); // Borde derecho
     }
 
-    buffer.writeln('+' + '-' * (GameConfig.ancho - 2) + '+');
+    buffer.writeln('+${'-' * (GameConfig.ancho - 2)}+');
     stdout.write(buffer.toString());
   }
 }
